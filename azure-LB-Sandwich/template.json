@@ -770,7 +770,7 @@
             "resources": [],
             "dependsOn": [
                 "[resourceId('Microsoft.Network/publicIPAddresses', 'NATOUT')]",
-                "[resourceId('Microsoft.Network/virtualNetworks', 'Vnet')]"
+                "[resourceId('Microsoft.Network/virtualNetworks', 'Vnet')]",
             ]
         },
         {
